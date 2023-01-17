@@ -5,72 +5,75 @@
 1) Создать страницу с таблицей степеней. Страница должна быть красочна и содержать фон. 
 2) Результатом работы является скриншот страницы и исходный код в виде html документа. 
 3) Стили должны быть прописаны в html. 
-4) Скриншот и html документ выложить в чат.
-Чтобы включить программу чтения с экрана, нажмите Ctrl+Alt+Z. Для просмотра списка быстрых клавиш нажмите Ctrl+косая черта.-->
+4) Скриншот и html документ выложить в чат.-->
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>Таблица степеней</title>
+
+	<!--Подключенный шрифт из Google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 	<style type="text/css">
 
 		body {
-			font-family: Segoe UI Light;
+			font-family: 'Roboto', sans-serif;
 		}
 
 		table {
+			background-color: #FFFFCC;
 			border-radius: 5px;
+			border-spacing: 0px;
+			margin-bottom: 3%;
+			margin-top: 1.5%;
+			height: 800px;
+			width: 1600px;
 		}
 
 		tr {
 			text-align: center;
 		}
 
-		.cellnumber:hover {
-			font-weight: bold;
-			background-color: #6699FF;
+		td {
+			padding: 5px;
 		}
 
-		.generalcell {
+		.generalcell, .cellnumber:hover {
+			background-color: #FFFF99;
 			font-weight: bold;
-			background-color: #6699FF;
 		}
 
-		/*Градиент от алого и фиолетовому*/
 		.gradient {
-			background: linear-gradient(to left, #FF3333, #660066);
+			background: linear-gradient(to left, #FFFFCC, #CCCC00);
 		}
 
 		/*Для дополнительной информации*/
 		.titles {
-			color: black;
-			text-align: center;
+			color: #000000;
 			font-weight: bold;
-			font-size: 10px;
-			line-height: 5px;
+			font-size: 9pt;
+			line-height: 7px;
+			text-align: center;
 		}
 
-		a {
-			color: #333333;
+		a, a:active:visited {
+			color: #000000;
 		}
 
-		a:active {
-			color: #333333;
-		}
-
-		a:visited {
-			color: #333333;
-		}
-
+		/*Подключенный шрифт из Google Fonts*/
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 	</style>
 </head>
 <body class="gradient">
-	<br>
-	<table align="center" bgcolor="#CCCCCC" border="2" bordercolor="#000000" cellpadding="4" cellspacing="0" height="800" width="1600">
+	<table align="center">
 		<tr>
-			<td align="center" colspan="10"><b>ТАБЛИЦА СТЕПЕНЕЙ</b></td>
+			<td colspan="10"><b>ТАБЛИЦА СТЕПЕНЕЙ</b></td>
 		</tr>
 		<tr>
 			<td class="generalcell">ЧИСЛО</td>
@@ -373,11 +376,10 @@
 			<td class="cellnumber">95 367 431 640 625</td>
 		</tr>
 	</table>
-	<br>
-	<br>
+
 	<!--Дополнительная информация-->
-	<p class="titles"><a href="https://github.com/EduardSuyargulov">Эдуард Суяргулов</a> для</p>
-	<p class="titles"><a href="https://cmit.ru/">cmit.ru</a></p>
-	<p class="titles">2022</p>
+	<p class="titles"><a href="http://suyargulov.ru/" target="_blank">suyargulov.ru</a> для</p>
+	<p class="titles"><a href="https://cmit.ru/" target="_blank">cmit.ru</a></p>
+	<p class="titles">2023</p>
 </body>
 </html>
