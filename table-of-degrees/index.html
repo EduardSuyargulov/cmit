@@ -1,0 +1,385 @@
+<!--Аттестационное задание для кружка ШЦТ "Веб-программисты-1"
+
+Основы HTML и CSS
+
+1) Создать страницу с таблицей степеней. Страница должна быть красочна и содержать фон. 
+2) Результатом работы является скриншот страницы и исходный код в виде html документа. 
+3) Стили должны быть прописаны в html. 
+4) Скриншот и html документ выложить в чат.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Таблица степеней</title>
+
+	<!--Подключенный шрифт из Google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+
+		body {
+			font-family: 'Roboto', sans-serif;
+		}
+
+		table {
+			background-color: #FFFFCC;
+			border-radius: 5px;
+			border-spacing: 0px;
+			margin-bottom: 3%;
+			margin-top: 1.5%;
+			height: 800px;
+			width: 1600px;
+		}
+
+		tr {
+			text-align: center;
+		}
+
+		td {
+			padding: 5px;
+		}
+
+		.generalcell, .cellnumber:hover {
+			background-color: #FFFF99;
+			font-weight: bold;
+		}
+
+		.gradient {
+			background: linear-gradient(to left, #FFFFCC, #CCCC00);
+		}
+
+		/*Для дополнительной информации*/
+		.titles {
+			color: #000000;
+			font-weight: bold;
+			font-size: 9pt;
+			line-height: 7px;
+			text-align: center;
+		}
+
+		a, a:active:visited {
+			color: #000000;
+		}
+
+		/*Подключенный шрифт из Google Fonts*/
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+	</style>
+</head>
+<body class="gradient">
+	<table align="center">
+		<tr>
+			<td colspan="10"><b>ТАБЛИЦА СТЕПЕНЕЙ</b></td>
+		</tr>
+		<tr>
+			<td class="generalcell">ЧИСЛО</td>
+			<td class="generalcell">x²</td>
+			<td class="generalcell">x³</td>
+			<td class="generalcell">x⁴</td>
+			<td class="generalcell">x⁵</td>
+			<td class="generalcell">x⁶</td>
+			<td class="generalcell">x⁷</td>
+			<td class="generalcell">x⁸</td>
+			<td class="generalcell">x⁹</td>
+			<td class="generalcell">x¹⁰</td>
+		</tr>
+		<tr>
+			<td class="generalcell">2</td>
+			<td class="cellnumber">4</td>
+			<td class="cellnumber">8</td>
+			<td class="cellnumber">16</td>
+			<td class="cellnumber">32</td>
+			<td class="cellnumber">64</td>
+			<td class="cellnumber">128</td>
+			<td class="cellnumber">256</td>
+			<td class="cellnumber">512</td>
+			<td class="cellnumber">1 024</td>
+		</tr>
+		<tr>
+			<td class="generalcell">3</td>
+			<td class="cellnumber">9</td>
+			<td class="cellnumber">27</td>
+			<td class="cellnumber">81</td>
+			<td class="cellnumber">243</td>
+			<td class="cellnumber">729</td>
+			<td class="cellnumber">2 187</td>
+			<td class="cellnumber">6 561</td>
+			<td class="cellnumber">19 683</td>
+			<td class="cellnumber">59 049</td>
+		</tr>
+		<tr>
+			<td class="generalcell">4</td>
+			<td class="cellnumber">16</td>
+			<td class="cellnumber">64</td>
+			<td class="cellnumber">256</td>
+			<td class="cellnumber">1 024</td>
+			<td class="cellnumber">4 096</td>
+			<td class="cellnumber">16 384</td>
+			<td class="cellnumber">65 536</td>
+			<td class="cellnumber">262 144</td>
+			<td class="cellnumber">1 048 576</td>
+		</tr>
+		<tr>
+			<td class="generalcell">5</td>
+			<td class="cellnumber">25</td>
+			<td class="cellnumber">125</td>
+			<td class="cellnumber">625</td>
+			<td class="cellnumber">3 125</td>
+			<td class="cellnumber">15 625</td>
+			<td class="cellnumber">78 125</td>
+			<td class="cellnumber">390 625</td>
+			<td class="cellnumber">1 953 125</td>
+			<td class="cellnumber">9 765 625</td>
+		</tr>
+		<tr>
+			<td class="generalcell">6</td>
+			<td class="cellnumber">36</td>
+			<td class="cellnumber">216</td>
+			<td class="cellnumber">1 296</td>
+			<td class="cellnumber">7 776</td>
+			<td class="cellnumber">46 656</td>
+			<td class="cellnumber">279 936</td>
+			<td class="cellnumber">1 679 616</td>
+			<td class="cellnumber">10 077 696</td>
+			<td class="cellnumber">60 466 176</td>
+		</tr>
+		<tr>
+			<td class="generalcell">7</td>
+			<td class="cellnumber">49</td>
+			<td class="cellnumber">343</td>
+			<td class="cellnumber">2 401</td>
+			<td class="cellnumber">16 807</td>
+			<td class="cellnumber">117 649</td>
+			<td class="cellnumber">823 543</td>
+			<td class="cellnumber">5 764 801</td>
+			<td class="cellnumber">40 353 607</td>
+			<td class="cellnumber">282 475 249</td>
+		</tr>
+		<tr>
+			<td class="generalcell">8</td>
+			<td class="cellnumber">64</td>
+			<td class="cellnumber">512</td>
+			<td class="cellnumber">4 096</td>
+			<td class="cellnumber">32 768</td>
+			<td class="cellnumber">262 144</td>
+			<td class="cellnumber">2 097 152</td>
+			<td class="cellnumber">16 777 216</td>
+			<td class="cellnumber">134 217 728</td>
+			<td class="cellnumber">1 073 741 824</td>
+		</tr>
+		<tr>
+			<td class="generalcell">9</td>
+			<td class="cellnumber">81</td>
+			<td class="cellnumber">729</td>
+			<td class="cellnumber">6 561</td>
+			<td class="cellnumber">59 049</td>
+			<td class="cellnumber">531 441</td>
+			<td class="cellnumber">4 782 969</td>
+			<td class="cellnumber">43 046 721</td>
+			<td class="cellnumber">387 420 489</td>
+			<td class="cellnumber">3 486 784 401</td>
+		</tr>
+		<tr>
+			<td class="generalcell">10</td>
+			<td class="cellnumber">100</td>
+			<td class="cellnumber">1 000</td>
+			<td class="cellnumber">10 000</td>
+			<td class="cellnumber">100 000</td>
+			<td class="cellnumber">1 000 000</td>
+			<td class="cellnumber">10 000 000</td>
+			<td class="cellnumber">100 000 000</td>
+			<td class="cellnumber">1 000 000 000</td>
+			<td class="cellnumber">10 000 000 000</td>
+		</tr>
+		<tr>
+			<td class="generalcell">11</td>
+			<td class="cellnumber">121</td>
+			<td class="cellnumber">1 331</td>
+			<td class="cellnumber">14 641</td>
+			<td class="cellnumber">161 051</td>
+			<td class="cellnumber">1 771 561</td>
+			<td class="cellnumber">19 487 171</td>
+			<td class="cellnumber">214 358 881</td>
+			<td class="cellnumber">2 357 947 691</td>
+			<td class="cellnumber">25 937 424 601</td>
+		</tr>
+		<tr>
+			<td class="generalcell">12</td>
+			<td class="cellnumber">144</td>
+			<td class="cellnumber">1 728</td>
+			<td class="cellnumber">20 736</td>
+			<td class="cellnumber">248 832</td>
+			<td class="cellnumber">2 985 984</td>
+			<td class="cellnumber">35 831 808</td>
+			<td class="cellnumber">429 981 696</td>
+			<td class="cellnumber">5 159 780 352</td>
+			<td class="cellnumber">61 917 364 224</td>
+		</tr>
+		<tr>
+			<td class="generalcell">13</td>
+			<td class="cellnumber">169</td>
+			<td class="cellnumber">2 197</td>
+			<td class="cellnumber">28 561</td>
+			<td class="cellnumber">371 293</td>
+			<td class="cellnumber">4 826 809</td>
+			<td class="cellnumber">62 748 517</td>
+			<td class="cellnumber">815 730 721</td>
+			<td class="cellnumber">10 604 499 373</td>
+			<td class="cellnumber">137 858 491 849</td>
+		</tr>
+		<tr>
+			<td class="generalcell">14</td>
+			<td class="cellnumber">196</td>
+			<td class="cellnumber">2 744</td>
+			<td class="cellnumber">38 416</td>
+			<td class="cellnumber">537 824</td>
+			<td class="cellnumber">7 529 536</td>
+			<td class="cellnumber">105 413 504</td>
+			<td class="cellnumber">1 475 789 056</td>
+			<td class="cellnumber">20 661 046 784</td>
+			<td class="cellnumber">289 254 654 976</td>
+		</tr>
+		<tr>
+			<td class="generalcell">15</td>
+			<td class="cellnumber">225</td>
+			<td class="cellnumber">3 375</td>
+			<td class="cellnumber">50 625</td>
+			<td class="cellnumber">759 375</td>
+			<td class="cellnumber">11 390 625</td>
+			<td class="cellnumber">170 859 375</td>
+			<td class="cellnumber">2 562 890 625</td>
+			<td class="cellnumber">38 443 359 375</td>
+			<td class="cellnumber">576 650 390 625</td>
+		</tr>
+		<tr>
+			<td class="generalcell">16</td>
+			<td class="cellnumber">256</td>
+			<td class="cellnumber">4 096</td>
+			<td class="cellnumber">65 536</td>
+			<td class="cellnumber">1 048 576</td>
+			<td class="cellnumber">16 777 216</td>
+			<td class="cellnumber">268 435 456</td>
+			<td class="cellnumber">4 294 967 296</td>
+			<td class="cellnumber">68 719 476 736</td>
+			<td class="cellnumber">1 099 511 627 776</td>
+		</tr>
+		<tr>
+			<td class="generalcell">17</td>
+			<td class="cellnumber">289</td>
+			<td class="cellnumber">4 913</td>
+			<td class="cellnumber">83 521</td>
+			<td class="cellnumber">1 419 857</td>
+			<td class="cellnumber">24 137 569</td>
+			<td class="cellnumber">410 338 673</td>
+			<td class="cellnumber">6 975 757 441</td>
+			<td class="cellnumber">118 587 876 497</td>
+			<td class="cellnumber">2 015 993 900 449</td>
+		</tr>
+		<tr>
+			<td class="generalcell">18</td>
+			<td class="cellnumber">324</td>
+			<td class="cellnumber">5 832</td>
+			<td class="cellnumber">104 976</td>
+			<td class="cellnumber">1 889 568</td>
+			<td class="cellnumber">34 012 224</td>
+			<td class="cellnumber">612 220 032</td>
+			<td class="cellnumber">11 019 960 576</td>
+			<td class="cellnumber">198 359 290 368</td>
+			<td class="cellnumber">3 570 467 226 624</td>
+		</tr>
+		<tr>
+			<td class="generalcell">19</td>
+			<td class="cellnumber">361</td>
+			<td class="cellnumber">6 859</td>
+			<td class="cellnumber">130 321</td>
+			<td class="cellnumber">2 476 099</td>
+			<td class="cellnumber">47 045 881</td>
+			<td class="cellnumber">893 871 739</td>
+			<td class="cellnumber">16 983 563 041</td>
+			<td class="cellnumber">322 687 697 779</td>
+			<td class="cellnumber">6 131 066 257 801</td>
+		</tr>
+		<tr>
+			<td class="generalcell">20</td>
+			<td class="cellnumber">400</td>
+			<td class="cellnumber">8 000</td>
+			<td class="cellnumber">160 000</td>
+			<td class="cellnumber">3 200 000</td>
+			<td class="cellnumber">64 000 000</td>
+			<td class="cellnumber">1 280 000 000</td>
+			<td class="cellnumber">25 600 000 000</td>
+			<td class="cellnumber">512 000 000 000</td>
+			<td class="cellnumber">10 240 000 000 000</td>
+		</tr>
+		<tr>
+			<td class="generalcell">21</td>
+			<td class="cellnumber">441</td>
+			<td class="cellnumber">9 261</td>
+			<td class="cellnumber">194 481</td>
+			<td class="cellnumber">4 084 101</td>
+			<td class="cellnumber">85 766 121</td>
+			<td class="cellnumber">1 801 088 541</td>
+			<td class="cellnumber">37 822 859 361</td>
+			<td class="cellnumber">794 280 046 581</td>
+			<td class="cellnumber">16 679 880 978 201</td>
+		</tr>
+		<tr>
+			<td class="generalcell">22</td>
+			<td class="cellnumber">484</td>
+			<td class="cellnumber">10 648</td>
+			<td class="cellnumber">234 256</td>
+			<td class="cellnumber">5 153 632</td>
+			<td class="cellnumber">113 379 904</td>
+			<td class="cellnumber">2 494 357 888</td>
+			<td class="cellnumber">54 875 873 536</td>
+			<td class="cellnumber">1 207 269 217 792</td>
+			<td class="cellnumber">26 559 922 791 424</td>
+		</tr>
+		<tr>
+			<td class="generalcell">23</td>
+			<td class="cellnumber">529</td>
+			<td class="cellnumber">12 167</td>
+			<td class="cellnumber">279 841</td>
+			<td class="cellnumber">6 436 343</td>
+			<td class="cellnumber">148 035 889</td>
+			<td class="cellnumber">3 404 825 447</td>
+			<td class="cellnumber">78 310 985 281</td>
+			<td class="cellnumber">1 801 152 661 463</td>
+			<td class="cellnumber">41 426 511 213 649</td>
+		</tr>
+		<tr>
+			<td class="generalcell">24</td>
+			<td class="cellnumber">576</td>
+			<td class="cellnumber">13 824</td>
+			<td class="cellnumber">331 776</td>
+			<td class="cellnumber">7 962 624</td>
+			<td class="cellnumber">191 102 976</td>
+			<td class="cellnumber">4 586 471 424</td>
+			<td class="cellnumber">110 075 314 176</td>
+			<td class="cellnumber">2 641 807 540 224</td>
+			<td class="cellnumber">63 403 380 965 376</td>
+		</tr>
+		<tr>
+			<td class="generalcell">25</td>
+			<td class="cellnumber">625</td>
+			<td class="cellnumber">15 625</td>
+			<td class="cellnumber">390 625</td>
+			<td class="cellnumber">9 765 625</td>
+			<td class="cellnumber">244 140 625</td>
+			<td class="cellnumber">6 103 515 625</td>
+			<td class="cellnumber">152 587 890 625</td>
+			<td class="cellnumber">3 814 697 265 625</td>
+			<td class="cellnumber">95 367 431 640 625</td>
+		</tr>
+	</table>
+
+	<!--Дополнительная информация-->
+	<p class="titles"><a href="http://suyargulov.ru/" target="_blank">suyargulov.ru</a> для</p>
+	<p class="titles"><a href="https://cmit.ru/" target="_blank">cmit.ru</a></p>
+	<p class="titles">2023</p>
+</body>
+</html>
