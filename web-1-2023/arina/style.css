@@ -1,0 +1,16 @@
+.navbar {
+	background: #000;
+}
+
+.navbar-collapse{
+	justify-content: flex-center;
+}
+
+a {
+	color: #FFF;
+}
+
+.primer1{ 
+	color: #FFF;
+	}
+	
