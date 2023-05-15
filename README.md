@@ -6,9 +6,9 @@
 
 ## Students' projects
 
-* [Unnamed project](https://eduardsuyargulov.github.io/cmit/arina/) by [Arina](https://github.com/Arinanananana00000)__
-* [Vagabond Store](https://eduardsuyargulov.github.io/cmit/artem/) by [Artem](https://github.com/psyhodelic1)__
-* [Unnamed project](https://eduardsuyargulov.github.io/cmit/kamila/) by [Kamila](https://github.com/Robot1357)__
-* [Unnamed project](https://eduardsuyargulov.github.io/cmit/danis/) by [Danis](https://github.com/Danis379)__
+* [Unnamed project](https://eduardsuyargulov.github.io/cmit/arina/) by [Arina](https://github.com/Arinanananana00000)
+* [Vagabond Store](https://eduardsuyargulov.github.io/cmit/artem/) by [Artem](https://github.com/psyhodelic1)
+* [Unnamed project](https://eduardsuyargulov.github.io/cmit/kamila/) by [Kamila](https://github.com/Robot1357)
+* [Unnamed project](https://eduardsuyargulov.github.io/cmit/danis/) by [Danis](https://github.com/Danis379)
 
-There are **first** projects by students in this repository.
+There are **first** projects by students.
