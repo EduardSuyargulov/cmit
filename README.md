@@ -1,8 +1,8 @@
-# cmit
+# cmit web-projects
 
-Eduard (mentor):
+Eduard (mentor): https://eduardsuyargulov.github.io/cmit/suyargulov-lending/
 
-Arina:
-Artem:
-Kamila:
-Danis:
+Arina: https://eduardsuyargulov.github.io/cmit/arina/
+Artem: https://eduardsuyargulov.github.io/cmit/artem/
+Kamila: https://eduardsuyargulov.github.io/cmit/kamila/
+Danis: https://eduardsuyargulov.github.io/cmit/danis/
