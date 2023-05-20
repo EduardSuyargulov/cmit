@@ -1,3 +1,4 @@
+/*Навигационная панель*/
 .navbar {
     background: #000;
 }
@@ -7,7 +8,7 @@
 }
 
 .nav-link {
-    margin-right: 2em;
+    margin-right: 30px;
 }
 
 .nav-link:hover {
@@ -23,6 +24,7 @@
      background: #fff;
 }
 
+/*Шапка*/
 .header {
     background-image: url('desktop.jpg');
     background-attachment: fixed;
