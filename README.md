@@ -11,4 +11,4 @@
 * [Unnamed project](https://eduardsuyargulov.github.io/cmit/kamila/) by [Kamila](https://github.com/Robot1357)
 * [Unnamed project](https://eduardsuyargulov.github.io/cmit/danis/) by [Danis](https://github.com/Danis379)
 
-These projects are **first** for all time by students.
+These projects by students are the **first** for all time.
