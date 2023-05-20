@@ -14,7 +14,21 @@ a {
 	color: #FFF;
 }
 
+.header {
+	background-color: #7B68EE;
+	height: 200px;
+	margin-top: 10px;
+}
+
+.test {
+	position: absolute;
+	padding-top: 3%;
+}
+
 /*test*/
 	
 
+/* .nav-link:hover {
+    background:	#7B68EE;	
+} */
 
