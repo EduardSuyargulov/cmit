@@ -1,0 +1,11 @@
+.nav-link:hover  {
+    background: lightblue;
+    color: black ;
+}
+
+.header {
+    background-image: url('desktop.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
