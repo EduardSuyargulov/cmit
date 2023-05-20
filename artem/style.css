@@ -228,7 +228,7 @@ footer {
 	bottom: 0;
 	top: 10;
 	position: fixed;
-	height: 200px;
+	height: 175px;
 	color: #FFF;
 	font-family: 'Montserrat', !important
 
@@ -238,3 +238,6 @@ footer {
   margin-top: 100px;
 }
 
+.m-t-30 {
+  margin-top: 30px;
+}
