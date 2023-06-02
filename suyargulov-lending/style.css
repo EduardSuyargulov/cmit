@@ -1,0 +1,80 @@
+/*Навигационная панель*/
+.navbar {
+    background: #000;
+}
+
+.nav-link, .navbar-brand {
+    color: #FFF;
+}
+
+.nav-link {
+    margin-right: 30px;
+}
+
+.nav-link:hover {
+    background: #FFF;
+    color: #000;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+     background: #fff;
+}
+
+/*Шапка*/
+.header {
+    background-image: url('desktop.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+/*			background: rgba(244, 244, 244, 0.1);*/
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+/*		    margin: auto;*/
+/*		    padding: 2em;*/
+}
+
+.description h1 {
+/*			color:#F97300;*/
+    color: #FFFFFF;
+}
+
+.description p {
+/*			color: #666;*/
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+/*.description, button{
+    border: 1px solid #F97300;
+    background: #F97300;
+    color: #fff;
+}*/		
+
+/*.bg-dark {
+    background-color:#343a40
+}
+
+.bg-primary {
+    background-color:#343a40
+}*/
+
+a, a:active:visited {
+  color: #000000;
+}		

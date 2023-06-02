@@ -46,6 +46,10 @@ a {
 
 }
 
+h5 {
+  font-family: 'Montserrat Alternates', sans-serif;;
+}
+
 .link-a {
 	color: rgba(0, 0, 0, 0.6);
 }
@@ -70,7 +74,11 @@ a {
 .m-t-10 {
 	margin-top: 10px;
 }
-c
+
+.m-t-100 {
+  margin-top: 100px;
+}
+
 .m-b-30 {
 	margin-bottom: 30px;
 }
@@ -107,17 +115,17 @@ c
 }
 
 .m-n-md-b-30 {
-    margin-bottom: -30px!important;
+  margin-bottom: -30px!important;
 }
 
 .m-n-b-20 {
-    margin-bottom: -20px!important;
+  margin-bottom: -20px!important;
 }
 
 .goods .g-item .gi-img {
-    height: 210px;
-    width: 140px;
-    position: relative;
+  height: 210px;
+  width: 140px;
+  position: relative;
 }
 
 .flex-img {
@@ -228,7 +236,7 @@ footer {
 	bottom: 0;
 	top: 10;
 	position: fixed;
-	height: 200px;
+	height: 150px;
 	color: #FFF;
 	font-family: 'Montserrat', !important
 
@@ -238,3 +246,10 @@ footer {
   margin-top: 100px;
 }
 
+.m-t-30 {
+  margin-top: 30px;
+}
+
+#sorter {
+size: 50px;
+}
