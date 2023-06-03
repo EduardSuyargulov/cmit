@@ -1,6 +1,14 @@
-.nav-link:hover  {
+.nav-link:hover {
     background: lightblue;
     color: black ;
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.text-light a:hover {
+    font: #FFF;
 }
 
 .header {
