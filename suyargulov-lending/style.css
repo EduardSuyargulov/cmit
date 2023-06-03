@@ -25,7 +25,7 @@
 }
 
 /*Все элементы списка располагаются справа в навигационной панели*/
-.navbar-collapse{
+.navbar-collapse {
     justify-content: flex-end;
 }
 
@@ -39,7 +39,7 @@ attachment ставит фиксированное положение (не мо
 size масштабируется по всему блоку header
 P.S. Если хотите, можете использовать картинку или градиент - я его закомментировал в коде*/
 .header {
-    background: #FF6633;
+    background: #3193d1;
     /*background: linear-gradient(to left, #FFFFCC, #FF6633);*/
     background-attachment: fixed;
     background-size: cover;
@@ -54,12 +54,13 @@ P.S. Если хотите, можете использовать картинк
 
 .description h3 {
     color: #FFF;
+    width: 50%;
 }
 
 .description p {
     color: #FFF;
     font-size: 20px;
-    width: 50%;
+    width: 70%;
     line-height: 1.5;
 }
 
