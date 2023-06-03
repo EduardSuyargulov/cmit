@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--Указывает кодировку документа. UTF-8 - повсеместный стандарт-->
 	<meta charset="utf-8">
+	<!--Контроллирует масштаб отображения страницы-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>ШЦТ — Школа цифровых технологий</title>
 
 	<!--Favicon-->
@@ -19,44 +22,53 @@
 <body>
 
 	<!--Навигационная панель-->
-	<nav class="navbar navbar-expand-lg fixed-top">
-	   <a class="navbar-brand" href="#">Eduard Suyargulov</a>
-	   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	   <span class="navbar-toggler-icon"></span>
+	<!--Класс navbar создает навигационную панель, 
+    nav-expand-lg необходим для того, чтобы элементы nav-item не свернулись в список,
+	sticky-top прикрепляет навигационную панель наверх даже при скроллинге вниз-->
+	<nav class="navbar navbar-expand-lg sticky-top">
+	   <!--navbar-brand работает как обычная ссылка, не беря свойства Bootstrap-->
+	   <a class="navbar-brand" href="#">
+		    <!--align-top выравнивает элемент сверху-->
+	   		<img src="logo.jpeg" width="32" height="32" class="d-inline-block align-top">
+	   		ШЦТ — Школа цифровых технологий
+	   </a>
+	   <!--navbar-toggler позволяет сворачивать элементы навигационной панели
+	   navbar-light устанавливает светлую тему, тем самым иконка сворачивания становится видимой на светлом фоне. В темной панели нужно поставить navbar-dark-->
+	   <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       		<span class="navbar-toggler-icon"></span>
 	   </button>
-		<div class="collapse navbar-collapse " id="navbarSupportedContent">
+	   <!--Как раз то, что будет скрываться-->
+	   <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	     <ul class="navbar-nav mr-4">
-	       
 	       <li class="nav-item">
-	       		<a class="nav-link" href="#">About</a>
+	       		<a class="nav-link" href="#">О нас</a>
 	       </li>
 	       <li class="nav-item">
-	       		<a class="nav-link" href="#">Portfolio</a>
+	       		<a class="nav-link" href="#">Кружки</a>
 	       </li>
 	       <li class="nav-item">
-	       		<a class="nav-link" href="#">Team</a>
+	       		<a class="nav-link" href="#">Состав</a>
 	       </li>
 	       <li class="nav-item">
-	       		<a class="nav-link" href="#">Post</a>
+	       		<a class="nav-link" href="#">Поделки</a>
 	       </li>
 	       <li class="nav-item">
-	       		<a class="nav-link" href="#">Contact</a>
+	       		<a class="nav-link" href="#">Связаться</a>
 	       </li>
-	     </ul>
-	     
+	     </ul>    
 	   </div>
 	</nav>	
 
 	<!--Шапка страницы-->
 	<header class="header">
-		<div class="overlay"></div>
 		<div class="container">
+			<!--description это созданный класс (см. style.css)-->
 			<div class="description text-center">
-			   <h3><font color="#FFFFFF">
-			    Привет, я наставник ШЦТ Суяргулов Эдуард
-			    <p>Потихоньку разрабатываю сайт. Это пока что макет</p>
-			    <button class="btn btn-outline-primary">Узнать больше</button>
-			   </font></h3>
+			   <h3>
+					Добро пожаловать в Школу цифровых технологий
+					<p>Единственная школа робототехники, научно-технического творчества и программирования в Уфе для детей от 6 до 17 лет</p>
+					<button class="btn btn-outline-primary">Узнать больше</button>
+				</h3>
 			</div>     		
    		</div>
 	</header>

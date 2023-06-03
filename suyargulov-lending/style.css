@@ -1,80 +1,70 @@
-/*Навигационная панель*/
+/*Устанавливает навигационной панели белый цвет*/
 .navbar {
-    background: #000;
-}
-
-.nav-link, .navbar-brand {
-    color: #FFF;
-}
-
-.nav-link {
-    margin-right: 30px;
-}
-
-.nav-link:hover {
     background: #FFF;
+}
+
+/*Все ссылки в панели черные*/
+.navbar a {
     color: #000;
 }
 
+/*А при наведении белые*/
+.nav-link a:hover {
+    color: #FFF;
+}
+
+/*Все элементы списка друг от друга в 30 пикселях*/
+.nav-link {
+    margin-right: 3em;
+}
+
+/*При наведении на элементы списка будет фон алого цвета и шрифт белого*/
+.nav-link:hover {
+    background: #FF6633;
+    color: #FFF;
+}
+
+/*Все элементы списка располагаются справа в навигационной панели*/
 .navbar-collapse{
     justify-content: flex-end;
 }
 
-.navbar-toggler {
-     background: #fff;
-}
+a, a:active:visited {
+    color: #000;
+}		
 
-/*Шапка*/
+/*Шапка. 
+background устанавливаются цвет фона, 
+attachment ставит фиксированное положение (не может идти вместе со скроллингом), 
+size масштабируется по всему блоку header
+P.S. Если хотите, можете использовать картинку или градиент - я его закомментировал в коде*/
 .header {
-    background-image: url('desktop.jpg');
+    background: #FF6633;
+    /*background: linear-gradient(to left, #FFFFCC, #FF6633);*/
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
-}
-
-.overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-/*			background: rgba(244, 244, 244, 0.1);*/
 }
 
 .description {
-    position: absolute;
+    position: fixed;
     top: 30%;
-/*		    margin: auto;*/
-/*		    padding: 2em;*/
+    margin: auto;
+    padding: 2em;
 }
 
-.description h1 {
-/*			color:#F97300;*/
-    color: #FFFFFF;
+.description h3 {
+    color: #FFF;
 }
 
 .description p {
-/*			color: #666;*/
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 20px;
     width: 50%;
     line-height: 1.5;
 }
 
-/*.description, button{
+.description button{
     border: 1px solid #F97300;
     background: #F97300;
     color: #fff;
-}*/		
-
-/*.bg-dark {
-    background-color:#343a40
 }
-
-.bg-primary {
-    background-color:#343a40
-}*/
-
-a, a:active:visited {
-  color: #000000;
-}		
