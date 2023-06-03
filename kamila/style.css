@@ -1,8 +1,3 @@
-.nav-link:hover {
-    background: lightblue;
-    color: black ;
-}
-
 .collapse {
     justify-content: flex-end;
 }
@@ -19,7 +14,7 @@
 }
 
 .header {
-    background: #7caec6;
+    background: #5eacd193;
     /*background: linear-gradient(to left, #FFFFCC, #FF6633);*/
     background-attachment: fixed;
     background-size: cover;
