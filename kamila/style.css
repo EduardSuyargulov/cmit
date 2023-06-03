@@ -9,3 +9,10 @@
     background-size: cover;
     background-position: center;
 }
+
+.header {
+    background: #7caec6;
+    /*background: linear-gradient(to left, #FFFFCC, #FF6633);*/
+    background-attachment: fixed;
+    background-size: cover;
+}
