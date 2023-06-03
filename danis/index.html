@@ -36,9 +36,9 @@
 		#buttonCarousel {
 			border: none;
 		}
-		#carouselExampleSlidesOnly {
+		/*#carouselExampleSlidesOnly {
 			right: ;
-		}
+		}*/
 		#image1 {
 			position: relative;
 			width: 100%;    
@@ -117,46 +117,46 @@
 	</div>
 
 
-	<div></div>
+	<header class="header">
 
- 
-	<div id="carousel" class="container mt-3">
+		<div class="carousel" class="mt-3">
 
-		<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
-			
-			<div class="carousel-inner">
+			<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+				
+				<div class="carousel-inner">
 
-			<div class="carousel-item active">
-				<button id="image1">
-					<div class="carousel-caption">Задания по математике</div>
-				</button>
-			</div>
-
-			<div class="carousel-item">
 				<div class="carousel-item active">
-					<button id="image2">
-						<div class="carousel-caption">Задания по информатике</div>
+					<button id="image1">
+						<div class="carousel-caption">Задания по математике</div>
 					</button>
 				</div>
-			</div>
 
-				<a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				</a>
+				<div class="carousel-item">
+					<div class="carousel-item active">
+						<button id="image2">
+							<div class="carousel-caption">Задания по информатике</div>
+						</button>
+					</div>
+				</div>
 
-				<a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				</a>
+					<a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					</a>
 
-				<ol class="carousel-indicators">
-					<li data-target="#carouselExampleSlidesOnly" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleSlidesOnly" data-slide-to="1"></li>
-				</ol>
+					<a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					</a>
+
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleSlidesOnly" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleSlidesOnly" data-slide-to="1"></li>
+					</ol>
+				</div>
+
 			</div>
 
 		</div>
-
-	</div>
+	</header>
 
 	<footer class="page-footer fixed-bottom" id="header">
 		<div class="container">
@@ -167,7 +167,10 @@
 	</footer>
 
 	<script type="text/javascript">
-		
+		$(document).ready(function() {
+    		//$('.carousel').height($(window).height());
+			//$('.header').height(0);
+		});
 	</script>
 
 	
