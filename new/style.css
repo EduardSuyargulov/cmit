@@ -1,0 +1,30 @@
+header {
+	padding-bottom: 40%;
+/*	background-color: green;*/
+	background-image: url(https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666361504_9-mykaleidoscope-ru-p-peizazhi-prirodi-krasivo-9.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#header_text {
+	font-size: 70px;
+	color: white;
+	margin-top: 40px;
+	width: 100%;
+}
+
+.header_description {
+	color: white;
+	font-size: 20px;
+	background: rgba(40, 40, 40, 0.75);
+	padding: 4%;
+	margin-top: 4%;
+}
+
+/*Для смартфона*/
+@media screen and (max-width: 576px) {
+	header {
+		padding-bottom: 120%;
+		background-size: 200%;
+	}
+}
